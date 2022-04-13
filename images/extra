@@ -1,0 +1,34 @@
+    style="height:80px;background: rgba(255,255,255,.9);"
+
+
+
+    <ul class="nav navbar-nav">
+                                        <li><a href="">Home</a></li>
+                                        <li><a href="">About us</a></li>
+                                        <li><a href="">Franchise</a></li>
+                                        <li><a href="">Restaurants</a></li>
+                                        <li><a href="">Menu</a></li>
+                                        <li><a href="">Gallery</a></li>
+                                        <li><a href="">Videos</a></li>
+                                        <li><a href="">Latest News</a></li>
+                                        <li><a href="">Contact</a></li>
+                                    </ul>
+                                    
+ <div class="navbar-collapse collapse" id="al-baik"> -->
+                               
+                             </div>
+                             <img src="images/logo.png" style="height:30px;width:250px;">
+                        
+        <div id="alslider" class="carousel slider">
+            <div class="carousel inner-carousel">
+                <div class="item active">
+                    <img>
+                </div>
+                <div class="item">
+                    <img>
+                </div>
+                <div class="item">
+                    <img>
+                </div>
+            </div>
+        </div>
