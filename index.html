@@ -6,7 +6,7 @@
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
                 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+                <script src="home.js"></script>
 
                 </head>
                 <body>
@@ -47,6 +47,15 @@
             </div>
             </div>
             </nav>
+            <div>
+                <center>
+      
+                </center>
+                <div id="coupon">
+                 <button onClick="closecoupon()">&times;</button>
+                 <img src="images/Coupon-PNG-Transparent-HD-Photo.png">
+                </div>
+            </div>
 
             <div class="container">
            
@@ -148,5 +157,8 @@
                     </div>
                     </div>
 
-                    </div>               
+                    </div>  
+                    <script>
+                        window.onload = loadcoupon()
+                    </script>             
             </html>
