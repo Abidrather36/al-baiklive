@@ -57,6 +57,24 @@
                 color:maroon;
                 }
                  */
+----------dark Mode--------------
+
+
+
+
+
+
+
+--------Dark Mode------------------     
+            body{
+                    margin:auto;
+                    background-color:white;
+                    color:black;
+                 }
+                 .mydark{
+                    background-color:black;
+                    color:white
+                 }
                  #coupon{
                     width:40%;
                     height:300px;
