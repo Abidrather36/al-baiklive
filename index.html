@@ -17,6 +17,30 @@
                 </head>
                 <body>
 
+                    <!-- // geolocation// -->
+
+                    <p id="out"></p>
+                    <script>
+                        
+                        let x= document.getElementById('out')
+                        function geolocation(){
+                            if(navigator.geolocation){
+                                navigator.geolocation.getCurrentPosition(showPosition)
+                            }
+                            else{
+                                x.innerText="geo not supported";
+                            }
+                        }
+                        function showPosition(data){
+                            console.log(data)
+                            x.innerText=`Latitude is ${data.coords.latitude} & longitude is ${data.coords.longitude}`; 
+                        }
+                        geolocation();
+                    </script>
+         
+
+                    <!-- // geolocation// -->
+
                 
                   
                     <li>  <button id="btnn" class="btn btn-darkmode" style="border-radius:60%;" onClick="changeMode();">
