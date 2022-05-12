@@ -20,6 +20,8 @@
                     <!-- // geolocation// -->
 
                     <p id="out"></p>
+                    <div id="icon"></div>
+                    <img src='https://openweathermap.org/img/w/01d.png'/>
                     <script>
                         let x=document.getElementById('out');
                         function geolocation(){
@@ -43,9 +45,11 @@
                          let cityName = data.city.name
                          let weather=data.list[0].temp.day
                          x.innerText=`weather of ${cityName} is ${weather} °C`;
-                          })
-                        }
-                  
+                         document.getElementById('icon').appendChild(
+                        " <img src='https://openweathermap.org/img/w/+data.list[0].weather.icon+'.png'/>"     )
+                             })
+            }
+                      
                         geolocation();
                     </script>
          
