@@ -39,15 +39,14 @@
                              ///api calling//
                         fetch(url,{method: 'GET'})
                         .then((res) => res.json())
-                        .then((data)=>{
+                        .then((data)=>{ 
                          let cityName = data.city.name
                          let weather=data.list[0].temp.day
                          x.innerText=`weather of ${cityName} is ${weather} °C`;
                           })
                         }
                   
-                        
-                        geolocation();
+                   
                     </script>
          
 
@@ -211,6 +210,8 @@
                     </div>  
                     <script>
                         window.onload = loadcoupon()
+                             
+                        geolocation();
                     </script>   
                               
             </html>
